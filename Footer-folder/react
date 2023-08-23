@@ -1,1 +1,55 @@
+import './App.css';
+
+function Footer() {
+  return(
+  <>                    
+        <div className="foot-panel1">
+            <p>Back to Top</p> 
+        </div>
+
+        <div className="foot-panel2">
+            <ul>
+                <p className="foot">Explore</p>
+                <p> <a href= "www.google.com">Home</a> </p>
+                <p> <a href= "www.google.com">Shop</a> </p>
+                <p> <a href= "www.google.com">Special Offers</a> </p>
+                <p> <a href= "www.google.com">About Us</a> </p>
+            </ul>
+            <ul>
+                <p className="foot">Partnership</p>
+                <p> <a href= "www.google.com">Local Suppliers</a> </p>
+                <p> <a href= "www.google.com">Charitable Organizations</a> </p>
+                <p> <a href= "www.google.com">Delivery Partners</a> </p>
+                <p> <a href= "www.google.com">Community Collaborations</a> </p>
+            </ul>
+            <ul>
+                 <p className="foot">Legal</p>
+                 <p> <a href= "www.google.com">Privacy Policy</a> </p>
+                 <p> <a href= "www.google.com">Terms of Service</a> </p>
+                 <p> <a href= "www.google.com">Returns & Exchanges</a> </p>
+                 <p> <a href= "www.google.com">FAQ</a> </p>
+            
+            </ul>
+            <ul>
+                 <p className="foot">Socials</p>
+                 <p> <a href= "www.youtube.com">Instagram</a> </p>
+                 <p> <a href= "www.google.com">Facebook</a> </p>
+                 <p> <a href= "www.google.com">Twitter</a> </p>
+                 <p> <a href= "www.google.com">Tiktok</a> </p>
+                 
+            </ul> 
+            </div>
+            
+ </>)
+}
+
+export default function App() {
+  return (
+    
+    <Footer/>
+  
+  );
+}
+
+
 
